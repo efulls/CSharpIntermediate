@@ -60,8 +60,14 @@ namespace CSharpIntermediate
             #endregion
 
             #region Properties
-            var person = new Person(new DateTime(1992, 2, 2));
-            Console.WriteLine(person.Age);
+            //var person = new Person(new DateTime(1992, 2, 2));
+            //Console.WriteLine(person.Age);
+            #endregion
+
+            #region Indexers
+            var cookie = new HttpCookie();
+            cookie["name"] = "Efuull";
+            Console.WriteLine(cookie["name"]);
             #endregion
         }
 
