@@ -43,13 +43,20 @@ namespace CSharpIntermediate
             #endregion
 
             #region Fields
-            var customer = new Customer(1);
-            customer.Orders.Add(new Order());
-            customer.Orders.Add(new Order());
+            //var customer = new Customer(1);
+            //customer.Orders.Add(new Order());
+            //customer.Orders.Add(new Order());
 
-            customer.Promote();
+            //customer.Promote();
 
-            Console.WriteLine(customer.Orders.Count);
+            //Console.WriteLine(customer.Orders.Count);
+            #endregion
+
+            #region Access Modifiers
+
+            var person = new Person();
+            person.SetBirthDate(new DateTime(1992, 1, 1));
+            Console.WriteLine(person.GetBirthdate());
             #endregion
         }
 
