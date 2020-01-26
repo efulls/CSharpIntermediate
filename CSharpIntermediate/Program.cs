@@ -54,9 +54,14 @@ namespace CSharpIntermediate
 
             #region Access Modifiers
 
-            var person = new Person();
-            person.SetBirthDate(new DateTime(1992, 1, 1));
-            Console.WriteLine(person.GetBirthdate());
+            //var person = new Person();
+            //person.SetBirthDate(new DateTime(1992, 1, 1));
+            //Console.WriteLine(person.GetBirthdate());
+            #endregion
+
+            #region Properties
+            var person = new Person(new DateTime(1992, 2, 2));
+            Console.WriteLine(person.Age);
             #endregion
         }
 

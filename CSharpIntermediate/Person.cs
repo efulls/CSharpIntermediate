@@ -8,16 +8,33 @@ namespace CSharpIntermediate
 {
     class Person
     {
-        private DateTime _birthdate;
+        //private DateTime _birthdate;
 
-        public void SetBirthDate(DateTime birthdate)
+        //public void SetBirthDate(DateTime birthdate)
+        //{
+        //    _birthdate = birthdate;
+        //}
+
+        //public DateTime GetBirthdate()
+        //{
+        //    return _birthdate;
+        //}
+        public DateTime Birthdate { get; private set; }
+
+        public Person(DateTime birthdate)
         {
-            _birthdate = birthdate;
+            Birthdate = birthdate;
         }
 
-        public DateTime GetBirthdate()
+        public int Age
         {
-            return _birthdate;
+            get
+            {
+                var timeSpan = DateTime.Today - Birthdate;
+                var years = timeSpan.Days / 365;
+
+                return years;
+            }
         }
     }
 }
