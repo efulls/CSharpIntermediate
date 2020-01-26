@@ -6,14 +6,9 @@ namespace CSharpIntermediate
     {
         public int Id;
         public string Name;
-        public List<Order> Orders;
-
-        public Customer()
-        {
-            Orders = new List<Order>();
-        }
+        public readonly List<Order> Orders = new List<Order>();
+        
         public Customer(int id)
-            : this()
         {
             this.Id = id;
         }
@@ -21,8 +16,12 @@ namespace CSharpIntermediate
         public Customer(int id, string name)
             : this(id)
         {
-            this.Id = id;
             this.Name = name;
+        }
+
+        public void Promote()
+        {
+            //Orders = new List<Order>();
         }
     }
 }

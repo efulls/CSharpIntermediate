@@ -34,17 +34,26 @@ namespace CSharpIntermediate
             #endregion
 
             #region Methods
-            int number;
-            var result = int.TryParse("abc", out number);
-            if(result)
-                Console.WriteLine(number);
-            else
-                Console.WriteLine("Conversion failed.");
+            //int number;
+            //var result = int.TryParse("abc", out number);
+            //if(result)
+            //    Console.WriteLine(number);
+            //else
+            //    Console.WriteLine("Conversion failed.");
             #endregion
 
+            #region Fields
+            var customer = new Customer(1);
+            customer.Orders.Add(new Order());
+            customer.Orders.Add(new Order());
 
+            customer.Promote();
+
+            Console.WriteLine(customer.Orders.Count);
+            #endregion
         }
 
+        #region Methods in Methods
         static void UseParams()
         {
             var calculator = new Calculator();
@@ -73,5 +82,6 @@ namespace CSharpIntermediate
             }
 
         }
+        #endregion
     }
 }
