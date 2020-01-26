@@ -65,10 +65,17 @@ namespace CSharpIntermediate
             #endregion
 
             #region Indexers
-            var cookie = new HttpCookie();
-            cookie["name"] = "Efuull";
-            Console.WriteLine(cookie["name"]);
+            //var cookie = new HttpCookie();
+            //cookie["name"] = "Efuull";
+            //Console.WriteLine(cookie["name"]);
             #endregion
+
+            #region Inheritance
+            var text = new Text();
+            text.Width = 100;
+            text.Copy();
+            #endregion
+
         }
 
         #region Methods in Methods
