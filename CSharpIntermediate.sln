@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{81EFF2DE-DD81-488E-84A4-22A2FB3E282B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{FC5B3EBD-6EE5-4660-AC86-BB26B53A8FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfUpcasting", "WpfUpcasting\WpfUpcasting.csproj", "{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{81EFF2DE-DD81-488E-84A4-22A2FB3E282B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81EFF2DE-DD81-488E-84A4-22A2FB3E282B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81EFF2DE-DD81-488E-84A4-22A2FB3E282B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5B3EBD-6EE5-4660-AC86-BB26B53A8FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5B3EBD-6EE5-4660-AC86-BB26B53A8FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5B3EBD-6EE5-4660-AC86-BB26B53A8FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5B3EBD-6EE5-4660-AC86-BB26B53A8FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
