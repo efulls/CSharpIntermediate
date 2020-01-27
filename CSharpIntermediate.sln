@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIntermediate", "CSharpIntermediate\CSharpIntermediate.csproj", "{D3B97CD5-048E-4C07-B7EF-7EBCB8273FD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{D8D16ABB-1AC3-4295-8C3F-6583C3386639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{5ABA98DB-077E-457D-8D2E-09E75DBA82DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D3B97CD5-048E-4C07-B7EF-7EBCB8273FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B97CD5-048E-4C07-B7EF-7EBCB8273FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B97CD5-048E-4C07-B7EF-7EBCB8273FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D16ABB-1AC3-4295-8C3F-6583C3386639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D16ABB-1AC3-4295-8C3F-6583C3386639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D16ABB-1AC3-4295-8C3F-6583C3386639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D16ABB-1AC3-4295-8C3F-6583C3386639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABA98DB-077E-457D-8D2E-09E75DBA82DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABA98DB-077E-457D-8D2E-09E75DBA82DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABA98DB-077E-457D-8D2E-09E75DBA82DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABA98DB-077E-457D-8D2E-09E75DBA82DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
