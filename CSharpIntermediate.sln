@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfUpcasting", "WpfUpcasting\WpfUpcasting.csproj", "{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing", "Boxing\Boxing.csproj", "{C1097836-8109-41E3-9D29-54A8276BECA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A54879-D9F7-44E1-8D6B-60C0B40B55D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1097836-8109-41E3-9D29-54A8276BECA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1097836-8109-41E3-9D29-54A8276BECA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1097836-8109-41E3-9D29-54A8276BECA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1097836-8109-41E3-9D29-54A8276BECA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
