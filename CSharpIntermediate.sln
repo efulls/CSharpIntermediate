@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability.UnitTests", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibility\Extensibility.csproj", "{DC713BAD-5F26-4B33-A5A7-FB55B6922188}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInheritance", "MultipleInheritance\MultipleInheritance.csproj", "{9AADA932-73C5-4007-BBEB-90AE7BC19DE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{DC713BAD-5F26-4B33-A5A7-FB55B6922188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC713BAD-5F26-4B33-A5A7-FB55B6922188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC713BAD-5F26-4B33-A5A7-FB55B6922188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AADA932-73C5-4007-BBEB-90AE7BC19DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AADA932-73C5-4007-BBEB-90AE7BC19DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AADA932-73C5-4007-BBEB-90AE7BC19DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AADA932-73C5-4007-BBEB-90AE7BC19DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
